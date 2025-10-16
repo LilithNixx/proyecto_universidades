@@ -1,0 +1,41 @@
+# -----------------------------
+# Entorno virtual
+# -----------------------------
+venv/
+env/
+*.pyc
+__pycache__/
+
+# -----------------------------
+# Archivos de sistema
+# -----------------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# Archivos de datos y resultados
+# -----------------------------
+data/raw/
+data/processed/
+docs/mapa_cervecerias.html
+
+# -----------------------------
+# Archivos de configuración local
+# -----------------------------
+*.sqlite
+*.db
+*.log
+
+# -----------------------------
+# Archivos de Python
+# -----------------------------
+*.pyo
+*.pyd
+*.swp
+
+# -----------------------------
+# Shiny y Jupyter
+# -----------------------------
+*.Rhistory
+*.RData
+*.ipynb_checkpoints
